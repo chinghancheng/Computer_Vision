@@ -19,9 +19,9 @@ while True:
     # 顯示灰圖
     # cv2.imshow('gray', img_gray)
     # 顯示
-    # cv2.imshow('r', img[:,:,0])
+    # cv2.imshow('b', img[:,:,0])
     # cv2.imshow('g', img[:,:,1])
-    # cv2.imshow('b', img[:,:,2])
+    # cv2.imshow('r', img[:,:,2])
     cv2.imshow('bgr_split', img_concat)
 
     # 直到按下 ESC 鍵才會自動關閉視窗結束程式
